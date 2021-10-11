@@ -1,0 +1,22 @@
+{
+  "name": "decorassentos-server",
+  "version": "1.0.0",
+  "description": "backend intermediario honma - vtex",
+  "main": "index.js",
+  "repository": "https://MarcosHMaia@bitbucket.org/osfeladaeplus/honma-backend.git",
+  "author": "marcoshenriquemaia <henriquemarcosmaia@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon"
+  },
+  "private": true,
+  "dependencies": {
+    "axios": "^0.20.0",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "node-cron": "^3.0.0",
+    "nodemon": "^2.0.4"
+  }
+}
