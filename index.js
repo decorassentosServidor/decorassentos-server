@@ -18,7 +18,7 @@ app.get('/:email', async (req, res) => {
   try{
     const { data } = await axios({
       method: "GET",
-      url: `${baseUrl}/api/dataentities/CL/search?_where=email=${email}&_fields=birthDate,id,aniversariante`,
+      url: `${baseUrl}/api/dataentities/CL/search?_where=email=${email}&_fields=birthDate,id,aniversariante,sentBirthEmail`,
       headers: {
         accept: "application/vnd.vtex.ds.v10+json",
         "content-type": "application/json",
